@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1F15A43E-D747-4218-A3B6-AABB54B3C3F7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FRDemoSwift</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>33BA52E298EAC181A3A5573AE188A89448242606</key>
+		<string>https://github.com/FlightRecorderOfficial/FRDemoSwift.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FRDemoSwift.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>33BA52E298EAC181A3A5573AE188A89448242606</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/FlightRecorderOfficial/FRDemoSwift.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>33BA52E298EAC181A3A5573AE188A89448242606</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>33BA52E298EAC181A3A5573AE188A89448242606</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FRDemoSwift</string>
+		</dict>
+	</array>
+</dict>
+</plist>

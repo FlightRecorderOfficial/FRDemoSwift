@@ -28,6 +28,13 @@ class SecondViewController: UIViewController {
     }
     
     override func viewDidLoad() {
+        
+        // Assume that we request an API call here and we want to log it with FlightRecorder
+        // Example :
+        
+        FlightRecorder.sharedInstance().logAPIRequestWithName("My API Call", url: "/user/get/1000", httpMethod: "POST", requestBody: nil, requestHeaders: nil, responseStatusCode: 500, responseString: "Internal Server Error", responseHeaders: nil)
+        
+        
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }

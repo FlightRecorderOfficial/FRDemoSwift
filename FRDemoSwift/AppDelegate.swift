@@ -39,11 +39,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         */
         
+        var userDefinedValues : [String:String] = [ "UserID":"1005","Username":"Can Abacigil"]
+        
         
         FlightRecorder.sharedInstance().setAccessKey("a0ad4a02-3e20-4f5f-be9a-8e0b6514885c", secretKey: "0d67cb69-c306-49cb-af8a-93846dcf8dc2")
         FlightRecorder.sharedInstance().shouldStartLocationManager = true
         FlightRecorder.sharedInstance().quality = FE_QUALITY_MEDIUM
+        
+        FlightRecorder.sharedInstance().userDefinedDictionary = userDefinedValues
+        FlightRecorder.sharedInstance().userID = "can@flightrecorder.co"
+        
         FlightRecorder.sharedInstance().startFlight()
+        
+        
+        
+        
         return true
     }
 

@@ -30,6 +30,8 @@ class ViewController: UIViewController {
             
             FlightRecorder.sharedInstance().warningWithName("My custom log name", value: "No value")
             
+    
+            
         }
         else
         {
@@ -68,7 +70,7 @@ class ViewController: UIViewController {
         
         
     }
-    
+   
     
     
 

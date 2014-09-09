@@ -15,7 +15,35 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+         // Override point for customization after application launch.
+        
+    
+    
+        /*
+        
+        # HOW TO INTEGRATE FLIGHTRECORDER
+        
+        1 - ) We created a file and added it to this project( Umberalla-Bridging-Header.h ) to import FlightRecorder.h file
+        2 - ) We need that file because FlightRecorder framework is written in Objective-C, it's the way to import an Objective-C file into Swift
+        3 - ) We modified "Build Settings -> Objective-C Bridging Header" and set it to "FRDemoSwift/Umberalla-Bridging-Header.h" as path.
+        4 - ) Now you can reach FlightRecorder public headers.
+        5 - ) Also you may want to add other frameworks to "Umberalla-Bridging-Header.h" if you need.
+        6 - ) These access and secret key belong to a demo account. You can visit flightrecorder.co and go to login.
+        7 - ) Username : demo@flightrecorder.co and password : 1234
+        8 - ) Select "My Another App" from app list and wait for your session. It takes 3-4 minutes.
+        
+        IMPORTANT : How to finish a session or when will the session be ready for watching?
+        
+        See : http://help.flightrecorder.co/knowledgebase/how-to-finish-a-session-or-when-will-the-session-be-ready-for-watching/
+        
+        */
+        
+        
+        FlightRecorder.sharedInstance().setAccessKey("a0ad4a02-3e20-4f5f-be9a-8e0b6514885c", secretKey: "0d67cb69-c306-49cb-af8a-93846dcf8dc2")
+        FlightRecorder.sharedInstance().shouldStartLocationManager = true
+        FlightRecorder.sharedInstance().quality = FE_QUALITY_MEDIUM
+        FlightRecorder.sharedInstance().startFlight()
         return true
     }
 

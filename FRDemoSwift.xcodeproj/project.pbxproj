@@ -12,6 +12,22 @@
 		F7A4D2D419BE7691003AA476 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7A4D2D219BE7691003AA476 /* Main.storyboard */; };
 		F7A4D2D619BE7691003AA476 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7A4D2D519BE7691003AA476 /* Images.xcassets */; };
 		F7A4D2E219BE7691003AA476 /* FRDemoSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A4D2E119BE7691003AA476 /* FRDemoSwiftTests.swift */; };
+		F7A4D2F119BE76ED003AA476 /* FlightRecorder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A4D2EC19BE76ED003AA476 /* FlightRecorder.framework */; };
+		F7A4D2F219BE76ED003AA476 /* FECoreModel.mom in Resources */ = {isa = PBXBuildFile; fileRef = F7A4D2EF19BE76ED003AA476 /* FECoreModel.mom */; };
+		F7A4D2F319BE76ED003AA476 /* VersionInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7A4D2F019BE76ED003AA476 /* VersionInfo.plist */; };
+		F7A4D2F719BE7C6E003AA476 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A4D2F619BE7C6E003AA476 /* SecondViewController.swift */; };
+		F7A4D2F919BE8121003AA476 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A4D2F819BE8121003AA476 /* CoreData.framework */; };
+		F7A4D2FB19BE8125003AA476 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A4D2FA19BE8125003AA476 /* SystemConfiguration.framework */; };
+		F7A4D2FD19BE812A003AA476 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A4D2FC19BE812A003AA476 /* CoreTelephony.framework */; };
+		F7A4D2FF19BE812F003AA476 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A4D2FE19BE812F003AA476 /* CoreMedia.framework */; };
+		F7A4D30119BE8135003AA476 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A4D30019BE8135003AA476 /* CoreVideo.framework */; };
+		F7A4D30319BE813B003AA476 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A4D30219BE813B003AA476 /* AVFoundation.framework */; };
+		F7A4D30519BE8140003AA476 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A4D30419BE8140003AA476 /* CoreLocation.framework */; };
+		F7A4D30719BE8145003AA476 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A4D30619BE8145003AA476 /* CoreGraphics.framework */; };
+		F7A4D30919BE814E003AA476 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A4D30819BE814E003AA476 /* MobileCoreServices.framework */; };
+		F7A4D30B19BE8152003AA476 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A4D30A19BE8152003AA476 /* CFNetwork.framework */; };
+		F7A4D30D19BE8158003AA476 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A4D30C19BE8158003AA476 /* libz.dylib */; };
+		F7A4D30F19BE815D003AA476 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A4D30E19BE815D003AA476 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,23 @@
 		F7A4D2DB19BE7691003AA476 /* FRDemoSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FRDemoSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7A4D2E019BE7691003AA476 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7A4D2E119BE7691003AA476 /* FRDemoSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FRDemoSwiftTests.swift; sourceTree = "<group>"; };
+		F7A4D2EC19BE76ED003AA476 /* FlightRecorder.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FlightRecorder.framework; sourceTree = "<group>"; };
+		F7A4D2EF19BE76ED003AA476 /* FECoreModel.mom */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = FECoreModel.mom; sourceTree = "<group>"; };
+		F7A4D2F019BE76ED003AA476 /* VersionInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = VersionInfo.plist; sourceTree = "<group>"; };
+		F7A4D2F519BE7893003AA476 /* Umberalla-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Umberalla-Bridging-Header.h"; sourceTree = "<group>"; };
+		F7A4D2F619BE7C6E003AA476 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F7A4D2F819BE8121003AA476 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F7A4D2FA19BE8125003AA476 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		F7A4D2FC19BE812A003AA476 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		F7A4D2FE19BE812F003AA476 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F7A4D30019BE8135003AA476 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		F7A4D30219BE813B003AA476 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F7A4D30419BE8140003AA476 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F7A4D30619BE8145003AA476 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F7A4D30819BE814E003AA476 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F7A4D30A19BE8152003AA476 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		F7A4D30C19BE8158003AA476 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		F7A4D30E19BE815D003AA476 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +74,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7A4D30F19BE815D003AA476 /* libsqlite3.dylib in Frameworks */,
+				F7A4D30D19BE8158003AA476 /* libz.dylib in Frameworks */,
+				F7A4D30B19BE8152003AA476 /* CFNetwork.framework in Frameworks */,
+				F7A4D30919BE814E003AA476 /* MobileCoreServices.framework in Frameworks */,
+				F7A4D30719BE8145003AA476 /* CoreGraphics.framework in Frameworks */,
+				F7A4D30519BE8140003AA476 /* CoreLocation.framework in Frameworks */,
+				F7A4D30319BE813B003AA476 /* AVFoundation.framework in Frameworks */,
+				F7A4D30119BE8135003AA476 /* CoreVideo.framework in Frameworks */,
+				F7A4D2FF19BE812F003AA476 /* CoreMedia.framework in Frameworks */,
+				F7A4D2FD19BE812A003AA476 /* CoreTelephony.framework in Frameworks */,
+				F7A4D2FB19BE8125003AA476 /* SystemConfiguration.framework in Frameworks */,
+				F7A4D2F919BE8121003AA476 /* CoreData.framework in Frameworks */,
+				F7A4D2F119BE76ED003AA476 /* FlightRecorder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +103,19 @@
 		F7A4D2C019BE7691003AA476 = {
 			isa = PBXGroup;
 			children = (
+				F7A4D30E19BE815D003AA476 /* libsqlite3.dylib */,
+				F7A4D30C19BE8158003AA476 /* libz.dylib */,
+				F7A4D30A19BE8152003AA476 /* CFNetwork.framework */,
+				F7A4D30819BE814E003AA476 /* MobileCoreServices.framework */,
+				F7A4D30619BE8145003AA476 /* CoreGraphics.framework */,
+				F7A4D30419BE8140003AA476 /* CoreLocation.framework */,
+				F7A4D30219BE813B003AA476 /* AVFoundation.framework */,
+				F7A4D30019BE8135003AA476 /* CoreVideo.framework */,
+				F7A4D2FE19BE812F003AA476 /* CoreMedia.framework */,
+				F7A4D2FC19BE812A003AA476 /* CoreTelephony.framework */,
+				F7A4D2FA19BE8125003AA476 /* SystemConfiguration.framework */,
+				F7A4D2F819BE8121003AA476 /* CoreData.framework */,
+				F7A4D2EB19BE76ED003AA476 /* FlightRecorder.embeddedframework */,
 				F7A4D2CB19BE7691003AA476 /* FRDemoSwift */,
 				F7A4D2DE19BE7691003AA476 /* FRDemoSwiftTests */,
 				F7A4D2CA19BE7691003AA476 /* Products */,
@@ -80,6 +139,8 @@
 				F7A4D2D219BE7691003AA476 /* Main.storyboard */,
 				F7A4D2D519BE7691003AA476 /* Images.xcassets */,
 				F7A4D2CC19BE7691003AA476 /* Supporting Files */,
+				F7A4D2F519BE7893003AA476 /* Umberalla-Bridging-Header.h */,
+				F7A4D2F619BE7C6E003AA476 /* SecondViewController.swift */,
 			);
 			path = FRDemoSwift;
 			sourceTree = "<group>";
@@ -107,6 +168,32 @@
 				F7A4D2E019BE7691003AA476 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7A4D2EB19BE76ED003AA476 /* FlightRecorder.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				F7A4D2EC19BE76ED003AA476 /* FlightRecorder.framework */,
+				F7A4D2ED19BE76ED003AA476 /* Resources */,
+			);
+			path = FlightRecorder.embeddedframework;
+			sourceTree = "<group>";
+		};
+		F7A4D2ED19BE76ED003AA476 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7A4D2EE19BE76ED003AA476 /* FECoreModel.momd */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F7A4D2EE19BE76ED003AA476 /* FECoreModel.momd */ = {
+			isa = PBXGroup;
+			children = (
+				F7A4D2EF19BE76ED003AA476 /* FECoreModel.mom */,
+				F7A4D2F019BE76ED003AA476 /* VersionInfo.plist */,
+			);
+			path = FECoreModel.momd;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +277,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7A4D2D419BE7691003AA476 /* Main.storyboard in Resources */,
+				F7A4D2F319BE76ED003AA476 /* VersionInfo.plist in Resources */,
+				F7A4D2F219BE76ED003AA476 /* FECoreModel.mom in Resources */,
 				F7A4D2D619BE7691003AA476 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -208,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7A4D2F719BE7C6E003AA476 /* SecondViewController.swift in Sources */,
 				F7A4D2D119BE7691003AA476 /* ViewController.swift in Sources */,
 				F7A4D2CF19BE7691003AA476 /* AppDelegate.swift in Sources */,
 			);
@@ -325,9 +415,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FlightRecorder.embeddedframework",
+				);
 				INFOPLIST_FILE = FRDemoSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FRDemoSwift/Umberalla-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -336,9 +431,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FlightRecorder.embeddedframework",
+				);
 				INFOPLIST_FILE = FRDemoSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FRDemoSwift/Umberalla-Bridging-Header.h";
 			};
 			name = Release;
 		};
